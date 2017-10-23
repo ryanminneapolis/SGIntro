@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Cockroach Cafe - Contact</title>
+    <style>
+        * {
+            font-family: trebuchet ms;
+        }
+        table {
+            border: 0px;
+            font-size: 20px;
+        }
+        tr > :nth-child(1) {text-align: right;}
+        input {
+            height: 25px;
+        }
+        td {
+            padding: 5px 10px;
+        }
+    </style>
+    </head>
+    <body>
+       <center><h1>Cockroach Cafe</h1></center>
+       <hr>
+       &nbsp&nbsp&nbsp&nbsp&nbsp
+       <a href="home.html">Home</a>&nbsp&nbsp&nbsp&nbsp&nbsp
+       <a href="menu.html">Menu</a>&nbsp&nbsp&nbsp&nbsp&nbsp
+       <a href="contactUs.html">Contact Us</a>
+       <hr>
+       <form action="#" method="POST">
+           <table>
+               <tr>
+                   <td>
+                       <label id="nameLabel" for="name">Full Name: </label>
+                   </td>
+                   <td>
+                       <input id="name" name="name" type="text" size="35" />
+                   </td>
+               </tr>
+               <tr>
+                   <td>
+                       <label id="emailLabel" for="email">Email: </label>
+                   </td>
+                   <td>
+                       <input id="email" name="email" type="email" size="35" />
+                   </td>
+               </tr>
+               <tr>
+                   <td>
+                       <label id="numberLabel" for="number">Phone Number: </label>
+                   </td>
+                   <td>
+                       <input id="number" name"number" type="text" size="35" />
+                   </td>
+               </tr>
+               <tr>
+                   <td>
+                       Reason for Inquiry: 
+                   </td>
+                   <td>
+                       <select id="reason" style="width: 230px;">
+                           <option>Catering</option>
+                           <option>Private Party</option>
+                           <option>Feedback</option>
+                           <option>Other</option>
+                       </select>
+                   </td>
+               </tr>
+               <tr>
+                   <td style="vertical-align: text-top;">
+                       Additional Information:
+                   </td>
+                   <td>
+                       <textarea cols="30" rows="6" id="info" name="info">
+                       </textarea>
+                   </td>
+               </tr>
+               <tr>
+                   <td>
+                        <label id="visited" for="visited">Have you been to the restaurant? </label>
+                    </td>
+                    <td>
+                        <input type="radio" name="answer" value="no" style="vertical-align: middle" checked/> No
+                        <input type="radio" name="answer" value="yes" style="vertical-align: middle"/> Yes<br/>
+                    </td>
+               </tr>
+               <tr>
+                   <td>
+                       Best days to contact you:
+                   </td>
+                   <td>
+                       <input type="checkbox" name="days" value="days" style="vertical-align: middle"/> M
+                       <input type="checkbox" name="days" value="days" style="vertical-align: middle"/> T
+                       <input type="checkbox" name="days" value="days" style="vertical-align: middle"/> W 
+                       <input type="checkbox" name="days" value="days" style="vertical-align: middle"/> Th 
+                       <input type="checkbox" name="days" value="days" style="vertical-align: middle"/> F                       
+                   </td>
+               </tr>
+               <tr>
+                   <td></td>
+                   <td>
+                       <input type="submit" value="Send Request" style="float: right"/></td></br>
+                   </td>
+               </tr>
+            </table>
+            <hr>
+            <p>
+                <center>
+                    <h4>
+                        1234 Main St., Minneapolis, MN, 55406
+                    </h4>
+                </center>
+            </p>
+            <p>
+                <center>
+                    <h4>
+                        666-867-5309
+                    </h4>
+                </center>
+            </p>
+            <hr>
+       </form>
+    </body>

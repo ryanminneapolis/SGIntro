@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+        <style>
+        table, th, td {
+            border: 0px; font-size: 20px; font-family: arial;  
+        }
+        td {
+            padding: 5px 10px;
+        }
+        tr > :nth-child(1) {text-align: right;}
+        input {
+            height: 25px; 
+        }
+
+        </style>
+    </head>
+    <body>
+        <form action="#" method="POST">
+            <table>
+            <tr>
+            <td>
+                <label id="firstNameLabel" for="firstName">First Name: </label>
+                </td>
+                <td>
+                <input id="firstName" name="firstName" type="text" size="35" />
+                </td>
+            </tr></br>
+            <tr>
+            <td>
+                <label id="lastNameLabel" for="lastName">Last Name:  </label>
+                </td>
+                <td>
+                <input id="lastName" name="lastName" type="text" size="35" />
+                </td>
+            </tr>
+            <tr>
+            <td>
+                <label id="emailLabel" for="email">Email:       </label>
+                </td>
+                <td>
+                <input id="email" name="email" type="email" size="35" />
+                </td>
+            </tr>
+            <tr>
+            <td>
+                <label id="license" for="license">Type of License: </label>
+                </td>
+                <td>
+                <input type="radio" name="answer" value="Business" checked/>Business
+                <input type="radio" name="answer" value="Personal" />Personal<br/>
+                </td>
+            </tr>
+            <tr>
+            <td>
+                Reason: 
+                </td>
+                <td>
+                <select id="soflow" style="width: 230px;">
+                    <option>Options</option>
+                    <option>Software Support</option>
+                    <option>Hardware Support</option>
+                    <option>Information Request</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+            <td style="vertical-align: text-top;">
+                Additional Information:
+                </td>
+                <td>
+                <textarea cols="26" rows="6" id="info" name="info"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+            <td>
+                <input type="checkbox" name="read" value="terms" />I have read the terms of service</br>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                <input type="submit" value="Send Request"/></br>
+                </td>
+            </tr>
+        </table>
+        </form>
+    </body>
+</html>
