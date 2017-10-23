@@ -1,0 +1,4 @@
+/* Alubum Style Sheet */
+table, th, td {
+    border-collapse: collapse; border: 1px solid black; text-align:center;
+ }
