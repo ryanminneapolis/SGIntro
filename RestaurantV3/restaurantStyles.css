@@ -1,0 +1,15 @@
+/* Restaurant Style Sheet */
+* {
+    font-family: trebuchet MS;
+}
+header, footer {
+    text-align: center;
+}
+
+h1 {
+    font-family: times, serif;
+}
+
+form {
+    font-weight: bold;
+}
